@@ -1,4 +1,7 @@
- 
+
+body {
+    background-color: #848884; /* Light gray background */
+}
   .in-xperience {
     position: absolute;
     left: 142px;
