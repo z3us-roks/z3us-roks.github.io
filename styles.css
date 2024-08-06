@@ -58,4 +58,35 @@ body {
     border-radius: 50px;
     box-shadow: 15px 15px 0px 3px #000000;
   }
+.typing-container {
+    border-right: 4px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+}
 
+/* Typing effect */
+.typing-effect {
+    font-size: 24px;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Keyframes for typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Keyframes for blinking caret */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
