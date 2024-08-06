@@ -59,7 +59,7 @@ body {
     box-shadow: 15px 15px 0px 3px #000000;
   }
 
-.typing-container {
+.in-xperience {
     border-right: 4px solid;
     white-space: nowrap;
     overflow: hidden;
@@ -67,7 +67,7 @@ body {
 }
 
 /* Typing effect */
-.typing-effect {
+.effect {
     font-size: 24px;
     animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
 }
