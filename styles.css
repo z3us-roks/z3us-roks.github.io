@@ -1,0 +1,58 @@
+ 
+  .in-xperience {
+    position: absolute;
+    left: 142px;
+    top: 10px;
+    width: 420px;
+    height: 177px;
+    display: flex;
+    align-items: flex-start;
+    white-space: break-spaces;
+    color: rgba(161, 0, 6, 1);
+    font-size: 75px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(161, 0, 6, 1);
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  .text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+  
+  .mens{
+    position: absolute;
+    left: 142px;
+    top: 318px;
+    width: 302px;
+    height: 320px;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    box-shadow: 15px 15px 0px 3px #000000;
+  }
+  .womens{
+    position: absolute;
+    left: 489px;
+    top: 318px;
+    width: 302px;
+    height: 320px;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    box-shadow: 15px 15px 0px 3px #000000;
+  }
+  .access{
+    position: absolute;
+    left: 836px;
+    top: 318px;
+    width: 302px;
+    height: 320px;
+    background: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 50px;
+    box-shadow: 15px 15px 0px 3px #000000;
+  }
+
